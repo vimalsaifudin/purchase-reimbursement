@@ -38,5 +38,3 @@ app.post('/reimburse', cors(), (req, res) => {
     console.log(req.body);
     res.send(req.body);
   });
-
-//app.listen(8080, () => console.log('API is running on http://localhost:8080/login'));
