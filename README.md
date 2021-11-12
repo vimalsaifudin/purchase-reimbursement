@@ -27,7 +27,7 @@ In order to run the application Type the following command
 npm start	
 ```
 
-The Application Runs on **localhost:3000**
+The React Application Runs on **localhost:3000**
 
 
 # node-server for the API
@@ -48,9 +48,32 @@ Start your server with the node command followed by the name of the JavaScript f
 node server.js
 ```
 
-## Open a Browser Client to test if the server started successfully
+## Open a Browser Client to test if the node server started successfully
 
-Open a web browser and go to the URL: <http://localhost:3000/>.
+https://github.com/vimalsaifudin/purchase-reimbursement
+
+Open a web browser and go to the URL: <http://localhost:8080/>.
+
+# If Node server is not installed please follow the instructions below
+
+## Recommended Install Option For Windows Users
+
+- Add ["Open PowerShell here as Administrator"](https://www.tenforums.com/tutorials/60177-add-open-powershell-window-here-administrator-windows-10-a.html).
+- Install [Chocolatey](https://chocolatey.org/) windows package manager
+
+```Powershell
+choco install nodejs -y
+choco upgrade all -y
+```
+
+## OR Install Node.js the traditional way
+
+1. Go to the Node.js website and follow the instructions to install.
+2. Verify installation. Open Powershell in your working folder and run:
+
+```PowerShell
+node -v
+npm -v
 
 
 
