@@ -1,71 +1,56 @@
-# Getting Started with Create React App
+# Purchase Reimbursement App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is the use of this Repo
 
-## Available Scripts
+This is a simple ReactJS project which demonstrates the following
+1. Allow an employee to submit a receipt for reimbursement
+2. Make HTTP calls to the back-end API service
 
-In the project directory, you can run:
+## Prerequisites
 
-### `yarn start`
+### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Cloning and Running the Application in local
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone the project into local
 
-### `yarn test`
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `yarn build`
+In order to run the application Type the following command
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start	
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Application Runs on **localhost:3000**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+# node-server for the API
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> Node.js makes it easy to create a folder-based web server using JavaScript
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Windows
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+In Windows, execute Node and npm commands in Powershell as Administrator,
+typically in the the root project folder.
 
-## Learn More
+## Start your Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start your server with the node command followed by the name of the JavaScript file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```PowerShell
+node server.js
+```
 
-### Code Splitting
+## Open a Browser Client to test if the server started successfully
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open a web browser and go to the URL: <http://localhost:3000/>.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# purchase-reimbursement
